@@ -378,15 +378,14 @@ It would be hard to read, difficult to maintain, and prone to bugs.
 
 ---
 
-### Example in IdealSpaces
+### Example in IS
 
 ```ts
-AE.provisional.design.getSelectedItems();
-[{
+{
     // ...snip
     BBoxMax: "32000 0 67200",
     Pos: "-15520 140000 8000"
-}]
+}
 ```
 
 Here the Bounding Box and Position are represented by strings. In order to work with these values
